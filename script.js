@@ -1,5 +1,4 @@
-//your JS code here. If required.
-document.getElementById('userForm').addEventListener('submit', function (e) {
+//your JS code heredocument.getElementById('userForm').addEventListener('submit', function (e) {
   e.preventDefault();
 
   const age = document.getElementById('age').value;
