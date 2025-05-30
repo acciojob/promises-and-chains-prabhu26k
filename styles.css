@@ -1,17 +1,28 @@
 /*  your css code here. If applicable */
 /* Optional styling */
-body {
+  body {
   font-family: Arial, sans-serif;
   margin: 20px;
 }
 
 form {
   max-width: 300px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
 }
 
 input, button {
-  margin: 10px 0;
   width: 100%;
   padding: 8px;
+  margin-top: 5px;
   box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  cursor: pointer;
 }
